@@ -13,8 +13,14 @@ public class _10 {
 		
 		for(int i = 1; i<=N; i++) {
 			A[i-1] = sc.nextInt();
+			
 			 
 		}
+		int [] B;
+		for(int j= A[0]; j<=X; j++) {
+			System.out.print(B);
+		}
+		
 	}
 
 }
