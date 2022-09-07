@@ -1,3 +1,4 @@
+
 package sub1;
 
 public class Apple {
@@ -11,8 +12,17 @@ public class Apple {
 	}
 	
 	public void show() {
-		System.out.println(" 원산지 : "+country);
+		System.out.println("원산지 : "+country);
 		System.out.println("가격 : "+price);
 	}
 	
+	@Override
+	public String toString() {
+		
+		System.out.println("country : "+country);
+		System.out.println("price : "+price);
+		System.out.println("객체 해시값 : "+hashCode());
+		
+		return super.toString();
+	}
 }
