@@ -26,7 +26,7 @@ public class DateTest {
 		Calendar cal = Calendar.getInstance();
 
 		int y = cal.get(Calendar.YEAR);
-		int m = cal.get(Calendar.MONTH);
+		int m = cal.get(Calendar.MONTH)+1; // 1월이 0이라 +1
 		int d = cal.get(Calendar.DATE);
 		int hour = cal.get(Calendar.HOUR);
 		int min = cal.get(Calendar.MINUTE);
