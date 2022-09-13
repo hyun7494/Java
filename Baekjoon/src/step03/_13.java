@@ -3,15 +3,28 @@ package step03;
 import java.util.Scanner;
 
 public class _13 {
-	public static void main(String[] args) {
+	public static void main(String[] args){
+		
 		Scanner sc = new Scanner(System.in);
-		int N[] = sc.next();
-		N = new int[1];
 		
-		if(int N[0] = empty ) {
-			int N[0] = 0;
-		}// 만약 N이 10
+		int i = sc.nextInt();
 		
+		int count = 0;
+		
+		int q = i / 10;
+		int r = i % 10;
+		
+		int a = r * 10;
+
+		
+		while (q*10 + r != i) {
+			a + r 
+			count++;
+		}
+		
+		
+		System.out.println(q);
+		System.out.println(r);
 	}
 
 }

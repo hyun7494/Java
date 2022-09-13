@@ -11,7 +11,7 @@ public class Q1 {
 		int i;	
 		int j;
 		
-		for(i=2; i<=a; i++) {
+		for(i=2; i<=a; i++) { // 2는 소수가 아니니까 2부터 a까지
 			
 			for(j=2; j<=i; j++) {
 				
