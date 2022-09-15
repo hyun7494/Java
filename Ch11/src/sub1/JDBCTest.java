@@ -30,8 +30,8 @@ public class JDBCTest {
 				System.out.println("데이터베이스 접속 실패!");
 			}
 			
-		}catch (Exception e) {
-			e.printStackTrace();
+		}catch (Exception e) { // Exception => 예외타입(모든 예외 클래스의 부모클래스), e => 참조변수
+			e.printStackTrace(); // 에러의 발생근원지를 찾아서 단계별로 에러를 출력
 		}
 		
 		System.out.println("접속 테스트 완료...");
