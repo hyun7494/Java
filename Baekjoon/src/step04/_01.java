@@ -9,7 +9,7 @@ public class _01 {
 		
 		int N = sc.nextInt(); // n개의 정수
 		int temp = 0;
-		int [] arr= new int[N]; // 주어지는 n개의 정수를 배열
+		int [] arr= new int[N]; // 입력 받는 n개의 정수를 배열
 		
 		int a;
 		
@@ -25,7 +25,8 @@ public class _01 {
 				}
 			}
 		}
-		System.out.println(arr[0], arr[N]);
+		System.out.print(arr[0]);
+		System.out.print(arr[N]);
 
 	}
 	
