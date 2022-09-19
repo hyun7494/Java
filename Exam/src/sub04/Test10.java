@@ -28,8 +28,7 @@ public class Test10 {
 		map.put("chungbuk", list2);
 		map.put("gyeongnam", list3);
 		
-		//수원 사과 출력
-		
+		// 수원 사과 출력
 		List<Apple> list = map.get("gyeonggi");
 		Apple apple = list.get(2);
 		apple.show();
