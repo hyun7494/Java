@@ -1,9 +1,11 @@
 package step06;
 
+import java.io.BufferedWriter;
 import java.util.Scanner;
 
 public class _02 {
 	public static void main(String[] args) {
+		/*
 		Scanner sc = new Scanner(System.in);
 		
 		int N = sc.nextInt();
@@ -15,5 +17,11 @@ public class _02 {
 			b += a;
 		}
 		System.out.println(b);
+		
+		*/
+		
+		
+		
+		BufferedWriter bw = new BufferedWriter(???);
 	}
 }
