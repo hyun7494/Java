@@ -1,5 +1,10 @@
 package sub08;
 
+/*
+ * 날짜 : 2022/09/29
+ * 이름 : 김현준
+ * 내용 : 자바 총정리 연습문제
+ */
 public class Test02 {
 	public static void main(String[] args) {
 		
@@ -11,13 +16,13 @@ public class Test02 {
 	}
 	
 	public static String reverseStr(String str) {
+		
 		StringBuilder sb = new StringBuilder();
 		
-		for(int i=str.length()-1 ; i>=0; i--) {
-			sb = append.charAt(i);
+		for(int i=str.length()-1 ; i >= 0 ; i--) {
+			sb.append(str.charAt(i));
 		}
 		
 		return sb.toString();
 	}
-
 }
