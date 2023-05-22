@@ -6,14 +6,16 @@ public class _05 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
-		int T = sc.nextInt();
-		for(int i=1; i<=T; i++) {
-			
-		int A = sc.nextInt();
-		int B = sc.nextInt();
+		int a = sc.nextInt();
 		
-		System.out.println(A+B);
+		int b = a/4;
+		for(int i = 1; i<=b; i++) {
+			System.out.print("long");
+			System.out.print(" ");
 		}
+		System.out.print("int");
+		
+		sc.close();
 		
 	}
 
