@@ -5,6 +5,7 @@ import java.io.BufferedWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
+import java.math.BigInteger;
 import java.util.StringTokenizer;
 
 public class _08 {
@@ -13,10 +14,14 @@ public class _08 {
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 		
 		StringTokenizer st = new StringTokenizer(br.readLine());
-		Long A = Long.parseLong(st.nextToken());
-		Long B = Long.parseLong(st.nextToken());
+		String a = st.nextToken();
+		BigInteger A = new BigInteger(a);
 		
-		Long C = A+B;
+		String b = st.nextToken();
+		BigInteger B = new BigInteger(b);
+		
+		
+		BigInteger C = A.add(B);
 		bw.write(C +"");
 		bw.flush();
 		bw.close();
